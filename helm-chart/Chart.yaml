@@ -1,0 +1,5 @@
+apiVersion: v2
+name: app-cheikhoul-khadim-niang
+description: Application GitOps de Cheikhoul Khadim Niang
+version: 0.1.0
+appVersion: "1.0.0"

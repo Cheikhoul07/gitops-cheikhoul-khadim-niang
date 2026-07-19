@@ -1,0 +1,13 @@
+image:
+  repository: ghcr.io/cheikhoul07/app-cheikhoul-khadim-niang
+  tag: latest
+  pullPolicy: Always
+
+replicaCount: 2
+
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+namespace: ns-cheikhoul-khadim-niang
